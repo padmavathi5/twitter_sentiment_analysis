@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pass</title>
+    <link href="{{url_for('static',filename='pass.css')}}" rel="stylesheet">
+</head>
+<body>
+    <h2>POSITIVE TWEETS  -     {{P}}</h2>
+    {% for item in li1 %}
+        <p>{{item}}</p>
+    {% endfor %}
+    <h2>NEGIVIVE TWEETS -      {{N}}</h2>
+    {% for item in li2 %}
+        <p>{{item}}</p>
+    {% endfor %}
+    <h2>NEUTRAL TWEETS -        {{NE}}</h2>
+    {% for item in li3 %}
+        <p>{{item}}</p>
+    {% endfor %}
+</body>
+</html>
