@@ -1,1 +1,1 @@
-# twitter_sentimental_analysis
+# twitter_sentiment_analysis
